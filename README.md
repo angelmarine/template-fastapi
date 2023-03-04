@@ -1,18 +1,18 @@
 # template-fastapi
-- FastApi template for production server (Azure App Service - Linux) 
+FastAPI server template for quick production-level deployment on Azure App Service(Linux)
 
 ### Features
-1. Pydantic(FastAPI) schema 
-   - For response/request validation
-   - For auto-generation of API doc
+1. **Pydantic(FastAPI) schema**
+   - For convenient response/request validation
+   - For auto-generation of Swagger API docs
 
-2. Logging
-   - Helper logging function for easier Cloud debugging using console (customizable)
+2. **Easy Function Logging**
+   - Embedded a decorator function for easier production-level debugging using console (customizable)
 
-3. Exceptions
-   - For better identification of custom errors
+3. **Customzed Exception Classes**
+   - For detailed error handling
 
-4. Configuration
+4. **Configuration**
    - Easy management of app configuration using config.py file.
    - Azure App Service allows setting of environment variables using Azure App Service dashboards.
    - Note that prefix "APPSETTING" is added by Azure by default.
