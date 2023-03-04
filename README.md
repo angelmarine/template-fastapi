@@ -16,13 +16,13 @@
    - Azure App Service allows setting of environment variables using Azure App Service dashboards.
    - Note that prefix "APPSETTING" is added by Azure by default.
 
-### How to use
-1. Install virtual environment
+### How to test in local environment
+1. ***Install virtual environment***
 ```commandline
 python -m venv venv
 ```
 
-2. Activate virtual environment
+2. ***Activate virtual environment***
 ```commandline
 # Windows
 .\venv\Script\activate
@@ -31,7 +31,7 @@ python -m venv venv
 source /venv/bin/activate
 ```
 
-3. Install requirements
+3. ***Install requirements***
 - For Windows, package 'uvloop' might cause error. 
 - You can temporarilty remove it from requirement.txt first and test locally.
 ```commandline
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ```
 
 
-4. Start server
+4. ***Start server***
 - You can also run/debug on app.py using IDE 
 ```commandline
 python app.py
