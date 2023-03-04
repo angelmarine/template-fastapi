@@ -1,5 +1,4 @@
-# template-fastapi
-FastAPI server template for quick production-level deployment on Azure App Service(Linux)
+# A FastAPI server template for deployment on Azure App Service(Linux)
 
 ### Features
 1. **Pydantic(FastAPI) schema**
@@ -46,3 +45,5 @@ pip install -r requirements.txt
 python app.py
 ```
 
+### How to deploy in Azure App Service
+- [Official guide for Django/Flask](https://learn.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cwindows%2Cazure-cli%2Clocal-git-deploy%2Cdeploy-instructions-azportal%2Cterminal-bash%2Cdeploy-instructions-zip-azcli) - They used to provide tutorial for FastAPI but it is deleted now. As an alternative, you can follow the steps for Flask.
