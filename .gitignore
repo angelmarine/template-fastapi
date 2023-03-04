@@ -1,0 +1,20 @@
+# Pycharm Settings
+.idea/
+
+# Virtual Environments
+.venv/
+venv/
+
+
+# Cache Files
+__pycache__/
+
+
+# All CSV Files
+*.csv
+
+# All XLSX Files
+*.xlsx
+
+# All Log Files
+*.log
